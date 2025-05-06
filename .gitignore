@@ -1,0 +1,43 @@
+# Python specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+*.bak
+*.swp
+
+# Jupyter Notebooks specific ignores
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+*.log
+*.coverage
+*.hypothesis/
+
